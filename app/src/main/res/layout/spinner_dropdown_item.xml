@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheckedTextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+
     android:layout_width="match_parent"
     android:layout_height="?android:attr/listPreferredItemHeight"
-
-    android:id="@android:id/text1"
-    style="?android:attr/spinnerDropDownItemStyle"
-    android:ellipsize="marquee"
-    android:text="@string/label_error_text"
-    android:textColor="@color/black"
-    android:textSize="30sp"
     android:background="@drawable/color_selector"
+    android:maxLines="1"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
+    android:text="@string/label_error_text"
+    android:textColor="@color/black"
+    android:textSize="30sp" />
 
-    android:maxLines="1"/>
 
-
-
-
+    <!--android:ellipsize="marquee"--><!--android:id="@android:id/text1"--><!--style="?android:attr/spinnerDropDownItemStyle"-->
